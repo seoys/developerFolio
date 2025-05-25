@@ -20,26 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Seo Youngsik",
+  title: "안녕하세요.",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "풀스택 개발자입니다.\n\n웹, 모바일, 서버 등 다양한 환경에서 사용자 경험을 최우선으로 생각하며 개발합니다.\n\n새로운 기술을 빠르게 습득하고, 문제 해결에 집요하게 접근합니다.\n\n함께 성장하는 개발 문화를 지향합니다."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/seoys",
+  linkedin: "https://www.linkedin.com/in/seoyoungsik/",
+  gmail: "angelskying@gmail.com",
+  medium: "https://medium.com/@sosohappy",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,73 +45,43 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "다양한 백엔드, 프론트엔드, 데이터베이스, 기타 기술을 활용하여 견고하고 확장성 있는 시스템을 개발합니다.",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    "⚡ Node.js, Python, Java, PHP 등 다양한 백엔드 언어 및 프레임워크(Django, Spring) 활용",
+    "⚡ JavaScript, TypeScript, React, Vue.js, Svelte, Next.js 등 최신 프론트엔드 기술 적용",
+    "⚡ Bootstrap 등 CSS 프레임워크로 반응형 UI 구현",
+    "⚡ MongoDB, PostgreSQL, MySQL, MariaDB, Oracle, Redis 등 다양한 데이터베이스 설계 및 운영",
+    "⚡ GraphQL, Git, Docker, Webpack 등 협업 및 배포 자동화 도구 활용"
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    {skillName: "Node.js", fontAwesomeClassname: "fab fa-node-js"},
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "Django", fontAwesomeClassname: "fas fa-leaf"}, // Font Awesome에 공식 Django 아이콘 없음, leaf로 대체
+    {skillName: "Java", fontAwesomeClassname: "fab fa-java"},
+    {skillName: "Spring", fontAwesomeClassname: "fas fa-seedling"}, // 공식 Spring 아이콘 없음, seedling으로 대체
+    {skillName: "PHP", fontAwesomeClassname: "fab fa-php"},
+    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
+    {skillName: "TypeScript", fontAwesomeClassname: "fab fa-js"}, // 공식 TypeScript 아이콘 없음, js로 대체
+    {skillName: "React", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "Vue.js", fontAwesomeClassname: "fab fa-vuejs"},
+    {skillName: "Svelte", fontAwesomeClassname: "fas fa-fire"}, // 공식 Svelte 아이콘 없음, fire로 대체
+    {skillName: "Next.js", fontAwesomeClassname: "fas fa-circle"}, // 공식 Next.js 아이콘 없음, circle로 대체
+    {skillName: "Bootstrap", fontAwesomeClassname: "fab fa-bootstrap"},
+    {skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf"}, // 공식 MongoDB 아이콘 없음, leaf로 대체
+    {skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database"}, // 공식 PostgreSQL 아이콘 없음, database로 대체
+    {skillName: "MySQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "MariaDB", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "Oracle", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "Redis", fontAwesomeClassname: "fas fa-memory"}, // 공식 Redis 아이콘 없음, memory로 대체
+    {skillName: "GraphQL", fontAwesomeClassname: "fas fa-project-diagram"}, // 공식 GraphQL 아이콘 없음, project-diagram로 대체
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "Webpack", fontAwesomeClassname: "fab fa-js"} // 공식 Webpack 아이콘 없음, js로 대체
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -123,7 +89,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",
@@ -153,16 +119,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
       Stack: "Backend",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "60%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Database",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "DevOps",
+      progressPercentage: "40%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -213,28 +183,95 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "주요 프로젝트 목록입니다.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/eql.png"),
+      projectName: "EQL",
+      projectDesc: "EQL은 온라인 쇼핑몰 플랫폼입니다.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://ch.eqlstore.com/main"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/happytalk.png"),
+      projectName: "Happytalk",
+      projectDesc: "Happytalk은 온라인 채팅 플랫폼입니다.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://happytalk.io/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/29cm.png"),
+      projectName: "29CM",
+      projectDesc: "29CM는 온라인 쇼핑몰 플랫폼입니다.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.29cm.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/goodneighbors.png"),
+      projectName: "굿네이버스",
+      projectDesc: "굿네이버스는 국제구호개발 NGO(비정부기구) 사이트입니다.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://m.goodneighbors.kr/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/starbucks.png"),
+      projectName: "스타벅스",
+      projectDesc: "스타벅스(Starbucks)는 커피 브랜드입니다.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.starbucks.co.kr/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/emart.png"),
+      projectName: "이마트 에브리데이",
+      projectDesc: "이마트 에브리데이는 이마트의 온라인 쇼핑몰 플랫폼입니다.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://emile.emarteveryday.co.kr/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/sindoh.png"),
+      projectName: "신도리코",
+      projectDesc:
+        "신도리코(SINDOH)는 한국의 대표적인 사무기기 전문 기업입니다.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.sindoh.com/ko/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/lg.png"),
+      projectName: "lg u+ 케어코치",
+      projectDesc: "LG U+ 케어코치는 LG U+의 고객 건강 지원 서비스입니다.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://m.lguplus.com/main"
         }
       ]
     }
@@ -300,7 +337,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -308,20 +345,45 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "개발 과정에서 마주친 문제들을 해결하고 개선한 경험을 공유한 개인블로그입니다.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@sosohappy/how-i-fixed-the-mcp-puppeteer-server-disconnected-error-c38773f72bd4",
+      title: "How I Fixed the “MCP puppeteer: Server disconnected” Error",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "MCP(Multi-Channel Platform) 서버에서 Puppeteer를 사용할 때 발생하는 'Server disconnected' 에러의 원인과 해결 방법을 설명합니다. 서버 연결이 끊어지는 문제를 해결하기 위한 재연결 로직 구현과 에러 핸들링 방법을 다룹니다."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@sosohappy/postman%EC%9C%BC%EB%A1%9C-random%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%98%B8%EC%B6%9C%ED%95%98%EA%B8%B0-b996ba84b212",
+      title: "Postman으로 Random데이터 호출하기",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Postman에서 랜덤 데이터를 생성하고 API 테스트에 활용하는 방법을 설명합니다. Faker 라이브러리를 활용하여 다양한 형태의 더미 데이터를 생성하고, 이를 API 요청에 활용하는 방법을 다룹니다."
+    },
+    {
+      url: "https://medium.com/@sosohappy/typegraphql-%EC%82%AC%EC%9A%A9%EC%8B%9C-fastify-plugin-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-6d22641b968d",
+      title: "TypeGraphql 사용시 fastify plugin 사용하기",
+      description:
+        "TypeGraphQL과 Fastify를 함께 사용할 때 발생하는 플러그인 통합 문제를 해결하는 방법을 설명합니다. Fastify 플러그인 시스템을 활용하여 TypeGraphQL 서버를 효율적으로 구성하고, 타입 안정성을 유지하면서 API를 개발하는 방법을 다룹니다."
+    },
+    {
+      url: "https://medium.com/@sosohappy/avvioerror-error-plugin-did-not-start-in-time-app-default-e44fa4c43313",
+      title: "AvvioError [Error]: Plugin did not start in time: 'app_default'",
+      description:
+        "Fastify 서버에서 발생하는 'Plugin did not start in time' 에러의 원인과 해결 방법을 설명합니다. 플러그인 시작 시간 초과 문제를 해결하기 위한 설정 방법과 타임아웃 값 조정, 비동기 플러그인 처리 방법을 다룹니다."
+    },
+    {
+      url: "https://medium.com/@sosohappy/typegraphql-error-noexplicittypeerror-unable-to-infer-graphql-type-from-typescript-reflection-ecaca8e1c071",
+      title:
+        "[TypeGraphql Error] NoExplicitTypeError: Unable to infer GraphQL type from TypeScript reflection system.",
+      description:
+        "TypeGraphQL에서 발생하는 타입 추론 에러의 원인과 해결 방법을 설명합니다. TypeScript의 리플렉션 시스템을 통한 GraphQL 타입 자동 추론이 실패할 때 발생하는 문제를 해결하기 위한 명시적 타입 선언 방법과 데코레이터 사용법을 다룹니다."
+    },
+    {
+      url: "https://medium.com/@sosohappy/unmetgraphqlpeerdependencyerror-3386823e2777",
+      title: "UnmetGraphQLPeerDependencyError",
+      description:
+        "GraphQL 관련 패키지 설치 시 발생하는 peer dependency 에러의 원인과 해결 방법을 설명합니다. 패키지 버전 충돌 문제를 해결하기 위한 의존성 관리 방법과 호환되는 버전 선택, package.json 설정 방법을 다룹니다."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -343,7 +405,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +418,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -370,17 +432,16 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "연락주세요.",
+  number: "+82-010.6418.7623",
+  email_address: "angelskying@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
