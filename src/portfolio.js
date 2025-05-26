@@ -50,7 +50,7 @@ const skillsSection = {
   skills: [
     "⚡ Node.js, Python, Java, PHP 등 다양한 백엔드 언어 및 프레임워크(Django, Spring) 활용",
     "⚡ JavaScript, TypeScript, React, Vue.js, Svelte, Next.js 등 최신 프론트엔드 기술 적용",
-    "⚡ Bootstrap 등 CSS 프레임워크로 반응형 UI 구현",
+    "⚡ TailwindCSS, Bootstrap 등 CSS 프레임워크로 반응형 UI 구현",
     "⚡ MongoDB, PostgreSQL, MySQL, MariaDB, Oracle, Redis 등 다양한 데이터베이스 설계 및 운영",
     "⚡ GraphQL, Git, Docker, Webpack 등 협업 및 배포 자동화 도구 활용"
   ],
