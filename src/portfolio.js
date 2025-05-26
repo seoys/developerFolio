@@ -144,29 +144,47 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "Software Engineer(fullstack)",
       company: "EQL(한섬)",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      companylogo: require("./assets/images/eql_logo.png"),
+      date: "2019.11-현재",
+      desc: "린스타트업 방법론을 기반으로 MSA(Micro Service Architecture) 개발과 빠른 시장 검증을 통한 효율적인 제품 개발 전략을 수립했습니다.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "2025년 3월 동영상 서비스(shorts) 출시 준비 중",
+        "2023년 11월 기획전/이벤트 템플릿화 적용으로 내부 운영비 절감",
+        "2023년 6월 콘텐츠 웹사이트 리뉴얼 오픈 예정(React에서 Svelte로 전환)",
+        "2023년 6월 ChatGPT를 활용한 카카오 오픈빌더 챗봇 오픈 예정",
+        "2022년 3월 콘텐츠 웹사이트 고도화 작업 완료 및 오픈(https://wch.eqlstore.com)",
+        "개인화 추천 상품 개발을 통한 서비스 개선, 선호 브랜드 및 상품 선택 기반 페르소나 유추",
+        "MSA(Micro Service Architecture)를 활용한 독립적 배포 가능 설계로 유연한 콘텐츠 개발 환경 조성",
+        "카카오 챗봇과 EQL 상품 연동을 통한 개인화 추천, 이미지 검색 및 고객 편의성 제공, CS 상담 감소"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer(chatbot)",
+      company: "엠비아이솔루션",
+      companylogo: require("./assets/images/happytalk_logo.png"),
+      date: "2017.11-2019.11",
+      desc: "챗봇 이용 후, 고객사 CS 상담건 평균 30%이상 감소 및 CS 상담 품질 향상",
+      descBullets: [
+        "챗봇 Back-End 시스템 개발 및 운영",
+        "상담톡(해피톡)과 챗봇에 연계를 위한 Back-End 시스템 개발",
+        "페이스북 메신저 챗봇 연동 개발",
+        "카카오 챗봇(아이봇빌더) 연동 개발/19년 상반기",
+        "라인 메신저 챗봇 연동 개발/19년 상반기"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer(API)",
+      company: "29CM",
+      companylogo: require("./assets/images/29cm_logo.png"),
+      date: "2016.01-2017.09",
+      desc: "RESTful API 설계 및 개발을 통해 쇼핑몰 플랫폼의 핵심 기능을 구현했습니다.",
+      descBullets: [
+        "콘텐츠 API 개발 - 콘텐츠 관리 시스템 구현",
+        "회원/인증 API 개발 - JWT 기반 인증 시스템 구축",
+        "성능 최적화 - Redis 캐싱 도입으로 API 응답 시간 50% 개선"
+      ]
     }
   ]
 };
@@ -176,7 +194,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
