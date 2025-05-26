@@ -21,10 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Seo Youngsik",
-  title: "안녕하세요.",
-  subTitle: emoji(
-    "풀스택 개발자입니다.\n\n웹, 모바일, 서버 등 다양한 환경에서 사용자 경험을 최우선으로 생각하며 개발합니다.\n\n새로운 기술을 빠르게 습득하고, 문제 해결에 집요하게 접근합니다.\n\n함께 성장하는 개발 문화를 지향합니다."
-  ),
+  title: "안녕하세요. 😀 ",
+  subTitle:
+    "저는 풀스택 개발자입니다.\n\n풀스택 개발자로서 웹, 모바일, 서버 등 다양한 환경에서 사용자 경험을 최우선으로 생각하며 개발합니다.\n\n새로운 기술을 빠르게 습득하고, 문제 해결에 집요하게 접근합니다.\n\n함께 성장하는 개발 문화를 지향합니다.",
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
